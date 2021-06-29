@@ -1,6 +1,8 @@
 # Raspberrypi Info
 Python script to collect data from one or more Raspberry Pi and write it into a mySQL table. The data can then be displayed with, for example, Grafana.
 
+![alt Grafana Dashboard](https://github.com/cbrauweiler/raspberrypi_info/blob/5e1ec055e0c3b96e4174510a828d3da5a1533da7/Grafana_Dashboard_Example.png)
+
 # Usage
 1. Create a mySQL database
 2. Import the table "data.sql"
