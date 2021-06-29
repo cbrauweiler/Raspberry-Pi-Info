@@ -1,5 +1,5 @@
 # Raspberrypi Info
-Python script to collect data from a Raspberry Pi and write it into a mySQL table. The data can then be displayed with, for example, Grafana.
+Python script to collect data from one or more Raspberry Pi and write it into a mySQL table. The data can then be displayed with, for example, Grafana.
 
 # Usage
 1. Create a mySQL database
