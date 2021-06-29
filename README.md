@@ -16,4 +16,4 @@ The following steps must be carried out on each Raspberry from which data is to 
 5. sudo apt install python-pip python3-pip
 6. sudo pip install mysql-connector-python-rf
 7. Create cron job with "sudo crontab -e"
-    (example: */5 * * * * python /home/pi/RPi-Info.py
+    (for example: */5 * * * * python /home/pi/RPi-Info.py)
