@@ -1,40 +1,4 @@
 {
-  "__inputs": [
-    {
-      "name": "DS_RPI-INFO",
-      "label": "RPi-Info",
-      "description": "",
-      "type": "datasource",
-      "pluginId": "mysql",
-      "pluginName": "MySQL"
-    }
-  ],
-  "__requires": [
-    {
-      "type": "grafana",
-      "id": "grafana",
-      "name": "Grafana",
-      "version": "7.2.0"
-    },
-    {
-      "type": "panel",
-      "id": "graph",
-      "name": "Graph",
-      "version": ""
-    },
-    {
-      "type": "datasource",
-      "id": "mysql",
-      "name": "MySQL",
-      "version": "1.0.0"
-    },
-    {
-      "type": "panel",
-      "id": "table",
-      "name": "Table",
-      "version": ""
-    }
-  ],
   "annotations": {
     "list": [
       {
@@ -51,11 +15,11 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": null,
+  "id": 6,
   "links": [],
   "panels": [
     {
-      "datasource": "${DS_RPI-INFO}",
+      "datasource": "RPi-Info",
       "fieldConfig": {
         "defaults": {
           "custom": {
@@ -67,7 +31,7 @@
             {
               "from": "",
               "id": 0,
-              "text": "Pi 2 Model B v1.1",
+              "text": "2B v1.1",
               "to": "",
               "type": 1,
               "value": "a01041"
@@ -75,7 +39,7 @@
             {
               "from": "",
               "id": 1,
-              "text": "Pi 3 Model B",
+              "text": "3B",
               "to": "",
               "type": 1,
               "value": "a02082"
@@ -83,7 +47,7 @@
             {
               "from": "",
               "id": 2,
-              "text": "Pi 4 B v1.1, 4GB",
+              "text": "4B v1.1, 4GB",
               "to": "",
               "type": 1,
               "value": "c03111"
@@ -91,7 +55,7 @@
             {
               "from": "",
               "id": 3,
-              "text": "Pi 3 Model B+",
+              "text": "3B+",
               "to": "",
               "type": 1,
               "value": "a020d3"
@@ -99,7 +63,7 @@
             {
               "from": "",
               "id": 4,
-              "text": "Pi 4 B v1.2, 4GB",
+              "text": "4B v1.2, 4GB",
               "to": "",
               "type": 1,
               "value": "c03112"
@@ -107,7 +71,7 @@
             {
               "from": "",
               "id": 5,
-              "text": "Pi 4 B v1.1, 2GB",
+              "text": "4B v1.1, 2GB",
               "to": "",
               "type": 1,
               "value": "b03111"
@@ -115,7 +79,7 @@
             {
               "from": "",
               "id": 6,
-              "text": "Pi 4 B v1.2, 2GB",
+              "text": "4B v1.2, 2GB",
               "to": "",
               "type": 1,
               "value": "b03112"
@@ -123,7 +87,7 @@
             {
               "from": "",
               "id": 7,
-              "text": "Pi 4 B v1.1, 1GB",
+              "text": "4B v1.1, 1GB",
               "to": "",
               "type": 1,
               "value": "a03111"
@@ -209,7 +173,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_RPI-INFO}",
+      "datasource": "RPi-Info",
       "decimals": 1,
       "fieldConfig": {
         "defaults": {
@@ -306,7 +270,6 @@
       ],
       "thresholds": [
         {
-          "$$hashKey": "object:2028",
           "colorMode": "warning",
           "fill": true,
           "line": true,
@@ -315,7 +278,6 @@
           "yaxis": "left"
         },
         {
-          "$$hashKey": "object:2034",
           "colorMode": "critical",
           "fill": true,
           "line": true,
@@ -343,7 +305,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:1991",
           "decimals": 1,
           "format": "celsius",
           "label": null,
@@ -353,7 +314,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:1992",
           "decimals": null,
           "format": "short",
           "label": null,
@@ -373,7 +333,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_RPI-INFO}",
+      "datasource": "RPi-Info",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -494,7 +454,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_RPI-INFO}",
+      "datasource": "RPi-Info",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -571,7 +531,6 @@
       ],
       "thresholds": [
         {
-          "$$hashKey": "object:82",
           "colorMode": "warning",
           "fill": true,
           "line": true,
@@ -580,7 +539,6 @@
           "yaxis": "left"
         },
         {
-          "$$hashKey": "object:88",
           "colorMode": "critical",
           "fill": true,
           "line": true,
@@ -634,7 +592,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_RPI-INFO}",
+      "datasource": "RPi-Info",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -773,5 +731,5 @@
   "timezone": "",
   "title": "Raspberry Pi Info",
   "uid": "CtU4tfg7z",
-  "version": 36
+  "version": 37
 }
