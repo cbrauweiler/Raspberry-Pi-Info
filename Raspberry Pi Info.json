@@ -39,7 +39,7 @@
             {
               "from": "",
               "id": 1,
-              "text": "3B",
+              "text": "3B v1.2",
               "to": "",
               "type": 1,
               "value": "a02082"
@@ -55,7 +55,7 @@
             {
               "from": "",
               "id": 3,
-              "text": "3B+",
+              "text": "3B+ v1.3",
               "to": "",
               "type": 1,
               "value": "a020d3"
@@ -731,5 +731,5 @@
   "timezone": "",
   "title": "Raspberry Pi Info",
   "uid": "CtU4tfg7z",
-  "version": 37
+  "version": 38
 }
