@@ -31,30 +31,198 @@
             {
               "from": "",
               "id": 0,
-              "text": "2B v1.1",
+              "text": "Model B Rev 1, 256MB",
+              "to": "",
+              "type": 1,
+              "value": "0002"
+            },
+            {
+              "from": "",
+              "id": 1,
+              "text": "Model B Rev 1, 256MB",
+              "to": "",
+              "type": 1,
+              "value": "0003"
+            },
+            {
+              "from": "",
+              "id": 2,
+              "text": "Model B Rev 2, 256MB",
+              "to": "",
+              "type": 1,
+              "value": "0004"
+            },
+            {
+              "from": "",
+              "id": 3,
+              "text": "Model B Rev 2, 256MB",
+              "to": "",
+              "type": 1,
+              "value": "0005"
+            },
+            {
+              "from": "",
+              "id": 4,
+              "text": "Model B Rev 2, 256MB",
+              "to": "",
+              "type": 1,
+              "value": "0006"
+            },
+            {
+              "from": "",
+              "id": 5,
+              "text": "Model A, 256MB",
+              "to": "",
+              "type": 1,
+              "value": "0007"
+            },
+            {
+              "from": "",
+              "id": 6,
+              "text": "Model A, 256MB",
+              "to": "",
+              "type": 1,
+              "value": "0008"
+            },
+            {
+              "from": "",
+              "id": 7,
+              "text": "Model A, 256MB",
+              "to": "",
+              "type": 1,
+              "value": "0009"
+            },
+            {
+              "from": "",
+              "id": 8,
+              "text": "Model B Rev 2, 512MB",
+              "to": "",
+              "type": 1,
+              "value": "000d"
+            },
+            {
+              "from": "",
+              "id": 9,
+              "text": "Model B Rev 2, 512MB",
+              "to": "",
+              "type": 1,
+              "value": "000e"
+            },
+            {
+              "from": "",
+              "id": 10,
+              "text": "Model B Rev 2, 512MB",
+              "to": "",
+              "type": 1,
+              "value": "000f"
+            },
+            {
+              "from": "",
+              "id": 11,
+              "text": "Model B+",
+              "to": "",
+              "type": 1,
+              "value": "0010"
+            },
+            {
+              "from": "",
+              "id": 12,
+              "text": "Model B+",
+              "to": "",
+              "type": 1,
+              "value": "0013"
+            },
+            {
+              "from": "",
+              "id": 13,
+              "text": "Model B+",
+              "to": "",
+              "type": 1,
+              "value": "900032"
+            },
+            {
+              "from": "",
+              "id": 14,
+              "text": "Model A+",
+              "to": "",
+              "type": 1,
+              "value": "0012"
+            },
+            {
+              "from": "",
+              "id": 15,
+              "text": "Model A+",
+              "to": "",
+              "type": 1,
+              "value": "0015"
+            },
+            {
+              "from": "",
+              "id": 16,
+              "text": "2B v1.1 (UK)",
               "to": "",
               "type": 1,
               "value": "a01041"
             },
             {
               "from": "",
-              "id": 1,
-              "text": "3B v1.2",
+              "id": 17,
+              "text": "2B v1.1 (China)",
+              "to": "",
+              "type": 1,
+              "value": "a21041"
+            },
+            {
+              "from": "",
+              "id": 18,
+              "text": "2B v1.2",
+              "to": "",
+              "type": 1,
+              "value": "a22042"
+            },
+            {
+              "from": "",
+              "id": 19,
+              "text": "Zero v1.2",
+              "to": "",
+              "type": 1,
+              "value": "900092"
+            },
+            {
+              "from": "",
+              "id": 20,
+              "text": "Zero v1.3",
+              "to": "",
+              "type": 1,
+              "value": "900093"
+            },
+            {
+              "from": "",
+              "id": 21,
+              "text": "Zero W v1.1",
+              "to": "",
+              "type": 1,
+              "value": "9000C1"
+            },
+            {
+              "from": "",
+              "id": 22,
+              "text": "3B v1.2 (UK)",
               "to": "",
               "type": 1,
               "value": "a02082"
             },
-            {
+			{
               "from": "",
-              "id": 2,
-              "text": "4B v1.1, 4GB",
+              "id": 23,
+              "text": "3B v1.2 (China)",
               "to": "",
               "type": 1,
-              "value": "c03111"
+              "value": "a02282"
             },
             {
               "from": "",
-              "id": 3,
+              "id": 24,
               "text": "3B+ v1.3",
               "to": "",
               "type": 1,
@@ -62,15 +230,15 @@
             },
             {
               "from": "",
-              "id": 4,
-              "text": "4B v1.2, 4GB",
+              "id": 25,
+              "text": "4B v1.1, 1GB",
               "to": "",
               "type": 1,
-              "value": "c03112"
+              "value": "a03111"
             },
             {
               "from": "",
-              "id": 5,
+              "id": 26,
               "text": "4B v1.1, 2GB",
               "to": "",
               "type": 1,
@@ -78,7 +246,7 @@
             },
             {
               "from": "",
-              "id": 6,
+              "id": 27,
               "text": "4B v1.2, 2GB",
               "to": "",
               "type": 1,
@@ -86,11 +254,35 @@
             },
             {
               "from": "",
-              "id": 7,
-              "text": "4B v1.1, 1GB",
+              "id": 28,
+              "text": "4B v1.1, 4GB",
               "to": "",
               "type": 1,
-              "value": "a03111"
+              "value": "c03111"
+            },
+            {
+              "from": "",
+              "id": 29,
+              "text": "4B v1.2, 4GB",
+              "to": "",
+              "type": 1,
+              "value": "c03112"
+            },
+			{
+              "from": "",
+              "id": 30,
+              "text": "4B v1.2, 8GB",
+              "to": "",
+              "type": 1,
+              "value": "d03114"
+            },
+            {
+              "from": "",
+              "id": 31,
+              "text": "400 v1.0, 4GB",
+              "to": "",
+              "type": 1,
+              "value": "c03130"
             }
           ],
           "thresholds": {
@@ -731,5 +923,5 @@
   "timezone": "",
   "title": "Raspberry Pi Info",
   "uid": "CtU4tfg7z",
-  "version": 38
+  "version": 1
 }
